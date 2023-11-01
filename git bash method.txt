@@ -1,0 +1,11 @@
+git config --global user.name "sample"
+git config --global user.email "sample@naver.com"
+파일 우클릭 : Git Bash Here
+git init
+git remote add origin https://github.com/
+git add "파일명"
+git commit -m 'memo'
+git push origin master
+
+연결 해제
+git remote remove origin
